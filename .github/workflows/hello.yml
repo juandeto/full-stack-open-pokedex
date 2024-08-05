@@ -12,3 +12,12 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+  
+  info_data:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Show date
+        run: date
+
+      - name: Show list
+        run: ls
