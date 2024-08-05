@@ -9,6 +9,7 @@ import { MemoryRouter } from 'react-router-dom'
 
 jest.mock('axios')
 
+
 const pokemonList = {
   id: 133,
   abilities: [
